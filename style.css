@@ -13,9 +13,17 @@
     align-items: center;
     justify-content: center; */
 }
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
 ul{
     width:100%;
     display: flex;
+    justify-content: flex-end;
 }
 li{
     padding: 15px;
