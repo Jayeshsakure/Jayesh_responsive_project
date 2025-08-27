@@ -317,6 +317,7 @@ img{
 .box-3{
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -766,6 +767,148 @@ background-color:bisque
   width: 100px;
 }
 
+}
 
 
+/* test ride start/ */
+
+
+.form-container {
+  background-color:rgba(255, 228, 196, 0.807);
+  width:100%;
+  padding: 30px;
+
+}
+
+h2 {
+  text-align:center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form label {
+  display:block;
+  margin-top:15px;
+  margin-bottom:5px;
+  font-weight:bold;
+  color: #555;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+button {
+  display:block;
+  margin-top:20px;
+  width:100%;
+  padding:12px;
+  background-color:rgba(210, 105, 30, 0.807);
+  color:white;
+  border: none;
+  font-size:16px;
+}
+
+
+@media(min-width:768px){
+
+
+.form-container {
+  background-color:rgba(255, 228, 196, 0.807);
+  border: 1px black solid;
+  width:100%;
+  padding: 20px;
+  }
+
+h2 {
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+form label {
+  display:block;
+  margin-top:15px;
+  margin-bottom:5px;
+  font-weight:bold;
+  color: #555;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+button {
+  display:block;
+  margin-top:20px;
+  width:100%;
+  padding:12px;
+  background-color:rgba(210, 105, 30, 0.807);
+  color:white;
+  border: none;
+  font-size:16px;
+}
+}
+
+
+@media(min-width:1024px){
+
+
+    .form-container {
+  background-color:rgba(255, 228, 196, 0.807);
+  border: 1px black solid;
+  width:100%;
+  padding: 20px;
+  }
+
+h2 {
+  text-align:center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form label {
+  display:block;
+  margin-top:15px;
+  margin-bottom:5px;
+  font-weight:bold;
+  color: #555;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+
+button {
+  display:block;
+  margin-top:20px;
+  width:100%;
+  padding:12px;
+  background-color:rgba(210, 105, 30, 0.807);
+  color:white;
+  border: none;
+  font-size:16px;
+}
 }
