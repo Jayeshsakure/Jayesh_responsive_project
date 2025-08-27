@@ -37,6 +37,19 @@ li{
     color: aqua;
     
 }
+span{
+    color: red;
+    font-style: italic;
+    text-shadow: -1px 7px 50px rgba(228,26,26,0.72);
+}
+
+p{
+    text-shadow: 2px 7px 32px rgba(0,0,0,1);
+}
+
+img{
+    box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.76);
+}
 .home-Content{
     width:100%;
     height:100%; 
@@ -328,10 +341,7 @@ img{
     text-align: center;
 }
 
-span{
-    color: red;
-    font-family:fantasy;
-}
+
 
 @media(min-width:375px){
     .bottom-about{
@@ -549,7 +559,7 @@ span{
 }
 .power-content-6{
     width: 100%;
-    height: 88vh;
+    height: 95vh;
     background-color:bisque;
 }
 .bottom-nav-power{
@@ -606,7 +616,7 @@ span{
 
 
 
-@media(min-width:768px){
+@media(min-width:1024px){
 .power-Content{
 width: 100%;
 padding: 15px;
@@ -644,4 +654,118 @@ background-color:bisque
     height: 70vh;
     background-color:bisque;
 }
+}
+
+/* power-end */
+
+/* features-content */
+
+.features-Content{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.937);
+
+}
+
+.table-1{
+    width: 100%;
+    padding: 25px;
+    /* border: 1PX SOLID black; */
+}
+
+
+.vertical-table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+.vertical-table th,
+.vertical-table td {
+  border: 1px solid wheat;
+  padding: 8px;
+  color: antiquewhite;
+  text-align: left;
+}
+
+.vertical-table th {
+  
+  width: 100px;
+}
+
+
+@media(min-width:768px){
+
+
+    .features-Content{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.937);
+
+}
+
+
+.table-1{
+    width: 100%;
+    padding: 25px;
+
+}
+
+
+.vertical-table {
+  border-collapse: collapse;
+  width: 700px;
+}
+
+.vertical-table th,
+.vertical-table td {
+  border: 1px solid wheat;
+  padding: 8px;
+  color: antiquewhite;
+  text-align: left;
+}
+
+.vertical-table th {
+  
+  width: 100px;
+}
+}
+
+@media(min-width:1024px){
+
+
+    .features-Content{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.937);
+
+}
+
+
+.table-1{
+    width: 100%;
+    padding: 25px;
+
+}
+
+
+.vertical-table {
+  border-collapse: collapse;
+  width:100%;
+}
+
+.vertical-table th,
+.vertical-table td {
+  border: 1px solid wheat;
+  padding: 8px;
+  color: antiquewhite;
+  text-align: left;
+}
+
+.vertical-table th {
+  
+  width: 100px;
+}
+
+
+
 }
