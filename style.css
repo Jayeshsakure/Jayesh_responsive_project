@@ -47,7 +47,12 @@ span{
 
 img{
     box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.76);
+    transition: 2s ease;
 }
+img:hover{
+    transform: scale(1.1,1.1);
+}
+
 .home-Content{
     width:100%;
     height:100%; 
